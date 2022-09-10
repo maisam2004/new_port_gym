@@ -275,14 +275,14 @@ text-shadow: 1px 1px purple;
 
 .facilities .towels{
     
-display: flex;
-    
-flex-flow: wrap;
-    
+display: flex;    
+flex-flow: wrap;    
 justify-content: space-evenly;
+padding:2%;
 }
 
 .facilities h3{
+    position: absolute;
     font-weight: 900;
     padding: 2% 2%;
     color: #eaeae1;
@@ -291,8 +291,7 @@ justify-content: space-evenly;
 
 .icons_gym{
     width: 120px;
-    padding-inline-start:15px;
-    
+    padding-inline-start:15px; 
     
 }
 
@@ -345,6 +344,9 @@ justify-content: space-evenly;
     .second_slide h2 {
         text-decoration: underline;
         text-underline-offset: 0.3em;
+    }
+    .facilities h3{
+        display: none;
     }
     
 }
@@ -481,19 +483,32 @@ border-radius: -90%;
 }
 
 .last_btn_member2{ /*for mobile view*/
-    background-color: rgb(151 17 100);
-    color: rgb(171 167 39);
-    font-size: x-large;
-    height: 350px;
-    width: 140px;
-    border-right: 10px solid rgba(129, 111, 78, 0.582);
-    -moz-transform: skew(-45deg);
-    -webkit-transform: skew(-45deg);
-    transform: skew(-10deg, 0deg);
-    border-left: 10px solid;
-    border-top: 1px solid green;
-    /* border-bottom: 1px solid #828c2d; */
-    border-radius: 20%;
+    
+background-color: rgb(151 17 100);
+    
+color: rgb(171 167 39);
+    
+font-size: x-large;
+    
+height: 350px;
+    
+width: 140px;
+    
+border-right: 10px solid rgba(129, 111, 78, 0.582);
+    
+-moz-transform: skew(-45deg);
+    
+-webkit-transform: skew(-45deg);
+    
+transform: skew(-10deg, 0deg);
+    
+border-left: 10px solid;
+    
+border-top: 1px solid green;
+    
+/* border-bottom: 1px solid #828c2d; */
+    
+border-radius: 20%;
     }
 
 
