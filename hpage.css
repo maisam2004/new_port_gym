@@ -189,19 +189,19 @@ text-shadow: 1px 1px rgb(32 123 167 / 80%);
 }
 
 
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-left: 8.3%;
+}
 
 .slide_notes_h3{
 
-/* width: 88%; */
-
-/* line-height: 40px; */
-
 color: rgb(184 202 94);
-
 font-size: 1.5em;
 
 margin-top: 4%;
-
 margin-inline: 2%;
 
 text-shadow: 1px 1px purple;
@@ -215,12 +215,14 @@ text-shadow: 1px 1px purple;
 
 
 .slide_notes_p{
+
     padding-top: 3%;
     color: rgb(225 216 227);
     padding-left: 1%;
+    
     font-size: larger;
     margin-inline: 1%;
-    /* font-weight: 550; */
+    
 }
 .slide_notes_p span{
    color: rgb(216 235 231);
@@ -228,6 +230,17 @@ text-shadow: 1px 1px purple;
 
 
 @media only screen and (max-width: 540px) {
+    .d-block{
+        width: 100%;
+
+    }
+
+    .carousel-inner {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+    }
+
     .slide-photo-first{
         padding-top:0;
         padding-bottom: 2%;
@@ -236,8 +249,7 @@ text-shadow: 1px 1px purple;
 
        .slide_notes_h3{
         /* font-size: 25px; */
-        color:
-        whitesmoke;
+        color:whitesmoke;
         margin-top: 3%;
         margin-inline: 7%;
         text-shadow: 1px 1px purple;
