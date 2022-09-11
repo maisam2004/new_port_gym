@@ -292,7 +292,7 @@ text-shadow: 1px 1px purple;
 display: flex;    
 flex-flow: wrap;    
 justify-content: space-evenly;
-padding: 5%;
+padding: 4%;
 }
 
 .facilities h3{
