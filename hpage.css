@@ -231,7 +231,7 @@ text-shadow: 1px 1px purple;
 
 
 @media only screen and (max-width: 540px) {
-    .d-block{
+    .slide_photos_1 .d-block{
         width: 100%;
 
     }
