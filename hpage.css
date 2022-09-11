@@ -193,7 +193,7 @@ text-shadow: 1px 1px rgb(32 123 167 / 80%);
     position: relative;
     width: 100%;
     overflow: hidden;
-    margin-left: 8.3%;
+    
 }
 
 .slide_notes_h3{
@@ -239,6 +239,7 @@ text-shadow: 1px 1px purple;
         position: relative;
         width: 100%;
         overflow: hidden;
+        margin-left: 8.3%;
     }
 
     .slide-photo-first{
